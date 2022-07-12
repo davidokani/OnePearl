@@ -1,0 +1,44 @@
+.error {
+    padding-top: 90px;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.error-alert {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.msg404 {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.backhome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.backhome a {
+    text-decoration: none;
+    color: white;
+}
