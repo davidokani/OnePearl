@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./landing.css";
+import image1 from "../../images/pearlimg1.jpg";
 
 const landing = () => {
 
@@ -23,15 +24,16 @@ const landing = () => {
             <div className="container">
                 <div className="page-container">
                     <div className="toppage1-toppage2">
-                        <div className="page toppage1">
-                            <h2 className="title">Our Vision</h2>
+                        <div className="page toppage2">
+                            <h2 className="title heading1">Our <span id="vision">Vision</span></h2>
                             <p className="page1-comment">Bringing each one into the reality of God's love and goodness, and
                                 helping
                                 them to see themselves as God sees them, as greatly cherished and extremly valuable, as
                                 precious
                                 pearls.</p>
+                            <img src={image1} className="image" alt="" />
                         </div>
-                        <div className="page toppage2">
+                        <div className="page toppage1">
                             <h2 className="title">OnePearl</h2>
                             <p className="page2-comment">GLOBAL INITIATIVE</p>
                         </div>
@@ -47,11 +49,10 @@ const landing = () => {
                                     See More
                                 </button>
                             </div>
-                            <img src="img/log.svg" className="image" alt="" />
                         </div>
                         <div className="panel right-panel">
                             <div className="content">
-                                <h3 className="panel-title2">Our Mission</h3>
+                                <h3 className="panel-title2 heading2">Our <span id="mission">Mission</span></h3>
                                 <div className="missions">To generate outreaches, programs and events with the aim of meeting
                                     the
                                     spiritual and physical needs of people.</div>
@@ -61,7 +62,7 @@ const landing = () => {
                                     Go Back
                                 </button>
                             </div>
-                            <img src="img/register.svg" className="image" alt="" />
+                            {/* <img src={""} className="image" alt="" /> */}
                         </div>
                     </div>
                 </div>
